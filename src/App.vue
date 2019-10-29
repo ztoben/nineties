@@ -45,7 +45,7 @@ export default {
   background: url("./assets/bg_stars.gif");
   display: flex;
   flex-grow: 1;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
   flex-direction: column;
   padding-top: 60px;
 
